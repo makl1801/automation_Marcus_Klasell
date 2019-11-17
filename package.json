@@ -1,0 +1,19 @@
+{
+  "name": "Hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run --spec cypress/integration/Hotelltest.spec.js",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.6.1"
+  },
+  "description": ""
+}
